@@ -169,3 +169,25 @@ body{
   font-size: 3rem;
   font-weight: 600;
 }
+.error-page{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.error-page h1{
+  font-size: 3rem;
+  font-weight: 800;
+  color: red;
+}
+.error-page p:not(:last-child){
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #211f1f;
+}
+.error-page p:last-child{
+  font-size: 16;
+  color: #ccc;
+}
