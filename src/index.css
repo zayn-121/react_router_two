@@ -147,3 +147,25 @@ body{
   font-size: 3rem;
   font-weight: 600;
 }
+
+.aboutdiv{
+  width: 100%;
+  padding: 0 60px;
+}
+.aboutdiv h1{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  text-decoration: underline;
+  color: #211f1f;
+}
+.aboutdiv p{
+  margin: 0 60px;
+  text-align: justify;
+}
+.aboutdiv p::first-letter{
+  text-transform: uppercase;
+  color: red;
+  font-size: 3rem;
+  font-weight: 600;
+}
